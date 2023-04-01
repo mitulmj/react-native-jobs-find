@@ -1,10 +1,22 @@
 {
   "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
+    "scheme": "myapp",
+    "name": "Mitul",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "slug": "test-slug",
+    "ios": {
+      "bundleIdentifier": "com.mituljariwala.testing",
+      "buildNumber": "1.0.0"
     },
-    "name": "react_native",
-    "slug": "react_native"
+    "android": {
+      "package": "com.mituljariwala.testing",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f90b96fc-6faa-4f08-8698-13cddc18e3d8"
+      }
+    }
   }
 }
